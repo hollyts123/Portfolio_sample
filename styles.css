@@ -37,6 +37,45 @@ h2 {
 
 .social_media_icon {
     font-size: 35px;
-    color: #338AF2;
+    color: #338AF2; 
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 62px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 34px;
+        }
     
+        h2 {
+            font-size: 20px;
+        }    
+
 }
