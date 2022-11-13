@@ -6,14 +6,10 @@
 
 
 h1 {
+    text-align: center;
     font-weight: 700;
     font-size: 68px;
     margin-top: 100px;
-}
-
-h2 {
-    font-size: 48px;
-    font-weight: 500;
 }
 
 .ukraine_logo {
@@ -24,12 +20,12 @@ h2 {
 .my_img {
     display: block;
     position: relative;
-    max-width: 500px;
+    max-width: 80%;
     margin: auto;
 }
 
 .my-text {
-    width: 45%;
+    width: 50%;
     font-size: 16px;
    
 }
@@ -60,12 +56,86 @@ li {
 
 @media (max-width: 1200px) {
     .my-text {
-        width: 100%;
+        width: 80%;
         text-align: center;
-        margin: auto;
+        margin: 0 auto;
     } 
 
+    p {margin-top: 50px;}
+
     .my_img {
-        width: auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .my-text {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    } 
+
+    h1 {
+        font-size: 58px;
+    }
+
+    p {margin-top: 50px;}
+
+    .my_img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 880px) {
+    .my-text {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    } 
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {margin-top: 50px;}
+
+    .my_img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .my-text {
+        width: 80%;
+        text-align: center;
+    } 
+
+    h1 {
+        font-size: 46px;
+        text-align: center;
+    }
+
+    p {margin-top: 50px;}
+
+    .my_img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 580px) {
+    .my-text {
+        width: 70%;
+        text-align: center;
+    } 
+
+    h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    p {margin-top: 50px;}
+
+    .my_img {
+        width: 70%;
     }
 }
