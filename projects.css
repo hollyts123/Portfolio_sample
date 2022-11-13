@@ -45,3 +45,17 @@ h1 {
     font-size: 35px;
     color: #338AF2; 
 }
+
+.central-block-hidden {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .central-block {
+        display: none;
+    }
+
+    .central-block-hidden {
+        display: block;
+    }
+}
