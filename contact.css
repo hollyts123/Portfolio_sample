@@ -5,8 +5,9 @@
 
 h1 {
     font-weight: 700;
-    font-size: 82px;
+    font-size: 68px;
     margin-top: 100px;
+    text-align: center;
 }
 
 h2 {
@@ -39,3 +40,18 @@ h2 {
     font-size: 35px;
     color: #338AF2; 
 }
+
+.mail {
+    display: block;
+    margin: 50px auto;
+    width: 150px;
+}
+
+.email {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
