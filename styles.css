@@ -22,6 +22,11 @@ h2 {
     margin-left: 10px;
 }
 
+.active {
+    font-weight: 500;
+    color: #ffebeb;
+}
+
 .btn {
     display: block;
     margin: 100px auto;
@@ -42,6 +47,12 @@ h2 {
     font-size: 35px;
     color: #338AF2; 
     
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 30px;
 }
 
 @media (max-width: 992px) {
