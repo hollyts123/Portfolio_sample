@@ -21,6 +21,11 @@ h1 {
     margin-left: 10px;
 }
 
+.active {
+    font-weight: 500;
+    color: #ffebeb;
+}
+
 .my_img {
     display: block;
     position: relative;
@@ -34,7 +39,7 @@ h1 {
    
 }
 
-p {
+.about {
     font-weight: 500;
     font-style: italic;
 }
@@ -58,6 +63,12 @@ li {
     color: #338AF2; 
 }
 
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 30px;
+}
+
 @media (max-width: 1200px) {
     .my-text {
         width: 80%;
@@ -72,27 +83,9 @@ li {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
     .my-text {
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
-    } 
-
-    h1 {
-        font-size: 58px;
-    }
-
-    p {margin-top: 50px;}
-
-    .my_img {
-        width: 70%;
-    }
-}
-
-@media (max-width: 880px) {
-    .my-text {
-        width: 80%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
     } 
@@ -104,13 +97,17 @@ li {
     p {margin-top: 50px;}
 
     .my_img {
-        width: 80%;
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 13px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .my-text {
-        width: 80%;
+        width: 100%;
         text-align: center;
     } 
 
@@ -122,13 +119,13 @@ li {
     p {margin-top: 50px;}
 
     .my_img {
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media (max-width: 580px) {
     .my-text {
-        width: 70%;
+        width: 80%;
         text-align: center;
     } 
 
@@ -140,6 +137,10 @@ li {
     p {margin-top: 50px;}
 
     .my_img {
-        width: 70%;
+        width: 80%;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 }

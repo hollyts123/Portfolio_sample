@@ -20,6 +20,11 @@ h1 {
     margin-left: 10px;
 }
 
+.active {
+    font-weight: 500;
+    color: #ffebeb;
+}
+
 .btn {
     display: block;
     margin: 100px auto;
@@ -48,6 +53,12 @@ h1 {
 
 .central-block-hidden {
     display: none;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 30px;
 }
 
 @media (max-width: 991px) {
