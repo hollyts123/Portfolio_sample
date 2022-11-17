@@ -46,6 +46,10 @@ h1 {
     
 }
 
+.project_img {
+    height: 300px;
+}
+
 .social_media_icon {
     font-size: 35px;
     color: #338AF2; 
